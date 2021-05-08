@@ -1,21 +1,4 @@
-body{
-    background-color: #000000;
-}
-
-header{
-
-    display: flex;
-    justify-content: space-between;
-    background: #000000;
-    border-bottom: 10px solid  #00E0FF;
-    padding: 10px 20px;
-}
-
-nav{
-    text-align: right;
-}
-
-a {
+.action {
     display: inline-flex;
     align-items: center;
     color: white;
@@ -26,13 +9,10 @@ a {
     margin-right: 30px;
 }
 
-a::before{
+.action::before{
     content: "";
     background-color: #56CCF2;
     width: 10px;
     height: 10px;
     margin-right: 10px;
 }
-
-
-
