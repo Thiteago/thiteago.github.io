@@ -3,5 +3,12 @@
     font-size: 40px;
     color: #BA1F33;
     text-shadow: 4px 4px 0px #000000;
-    
+}
+
+.title.-second{
+    color: #fff;
+    margin: 0%;
+    padding-top: 50px;
+    text-align: center;
+
 }

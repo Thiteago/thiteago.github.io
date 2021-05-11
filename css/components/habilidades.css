@@ -1,14 +1,5 @@
-h1{
-    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    
-    margin: 0%;
-    padding-top: 50px;
-    color: white;
-}
-
 .habilidades{
     height: 740px;
-    text-align: center;
+    
     background-color: #11ABF7;
 }
