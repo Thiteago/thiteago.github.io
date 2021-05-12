@@ -1,7 +1,13 @@
 .section{
-    height: 740px;
+    height: 610px;
     background-color: #11ABF7;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 10px solid #00E0FF;
+}
+
+.section.-habilidades{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../../assets/img/backgroundSkill.png);
 }

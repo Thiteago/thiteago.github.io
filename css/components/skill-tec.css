@@ -1,8 +1,10 @@
 .skill-tec{
     display: flex;
+    align-items: center;
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 25px;
     color: #fff;
+    text-shadow: 4px 4px 0px #000000;
 }
 
 .skill-tec h3{
@@ -16,6 +18,7 @@
 }
 
 .skill-tec .icon{
-    height: 80px;;
+    height: 84px;
+    width: 90px;
     margin-right: 25px;
 }
