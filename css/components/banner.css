@@ -3,7 +3,8 @@
     background-image: url(../../assets/img/sunset-pixel-art-landscape-scenery-digital-art-uhdpaper.com-4K-4.2066.jpg);
     height: 800px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
     border-bottom: 10px solid #00E0FF;
     padding-top: 115px;
     padding-left: 110px;

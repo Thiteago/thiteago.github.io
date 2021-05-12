@@ -8,6 +8,7 @@
 
 .section.-habilidades{
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
     background-image: url(../../assets/img/backgroundSkill.png);
 }
