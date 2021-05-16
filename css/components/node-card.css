@@ -23,6 +23,7 @@
     font-weight: 400;
     color: #F25A70 ;
     margin-bottom: 50px;
+    text-shadow: 4px 2px 0px #000;
 }
 
 .node-card .logo{

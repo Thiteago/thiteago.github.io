@@ -10,6 +10,7 @@
 }
 
 .main-section.-habilidades{
+    border-bottom: 10px solid #ABB2C2;
     background-image: url(../../assets/img/backgroundSkill.png);
 }
 
@@ -21,5 +22,8 @@
 
 .main-section.-sobre{
     text-align: center;
+    border-bottom: 10px solid #CEB02A;
+    background-attachment: scroll;
+    background-image: url(../../assets/img/thumb-1920-860645.png);
 
 }
