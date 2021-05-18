@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+.main-button.-header{
+    margin-right: 30px;
+}
+
 .main-button:hover{
         -webkit-transform: perspective(1px) translateZ(0);
         transform: perspective(1px) translateZ(0);

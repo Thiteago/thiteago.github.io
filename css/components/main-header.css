@@ -1,7 +1,18 @@
+#main-header{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    transition: top 0.3s ease-in-out;
+}
+
+
+
 .main-header{
     display: flex;
     justify-content: space-between;
     background: #000000;
     border-bottom: 10px solid  #00E0FF;
     padding: 10px 20px;
+    
 }
+
