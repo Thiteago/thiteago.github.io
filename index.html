@@ -33,6 +33,7 @@
         <link rel="stylesheet" href="css/components/wrapper-form.css">
         <link rel="stylesheet" href="css/components/main-input.css">
         <link rel="stylesheet" href="css/components/main-footer.css">
+        <link rel="stylesheet" href="css/components/main-label.css">
 
     </head>
     <body>
@@ -42,7 +43,7 @@
                 <a class="main-action" href="#skill" lang="en">Habilidades</a>
                 <a class="main-action" href="#projetos">Projetos</a>
                 <a class="main-action" href="#sobre">Sobre</a>
-                <a class="main-action" href="#">Contatos</a>
+                <a class="main-action" href="#contatos">Contatos</a>
                 <a class="main-button -header" href="#" lang="en">Download CV</a>
             </nav>
         </header>
@@ -184,7 +185,7 @@
 
         </section>
 
-        <section class="main-section -contatos">
+        <section class="main-section -contatos" id="contatos">
             <h1 class="main-title -second">Contatos</h1>
 
             
@@ -192,18 +193,23 @@
             <div class="wrapper-form">
                 <img src="assets/img/document-icon.png" alt="imagem de um documento em pixel art" height="622">
                 <form action="" method="GET">
-                    <label for="GET-nome">Nome:</label><br>
-                    <input class="main-input" type="text" name="nome"><br>
-                    <label for="GET-email">Email</label><br>
-                    <input class="main-input" type="email" name="email"><br>
-                    <label for="GET-Mensagem">Mensagem</label><br>
-                    <input class="main-input" type="text" name="mensagem" id="mensagem">
+                    <label class="main-label" for="nome">Nome:</label><br>
+                    <input class="main-input" type="text" name="nome" id="nome"><br>
+
+                    <label class="main-label" for="email">Email:</label><br>
+                    <input class="main-input" type="email" name="email" id="email"><br>
+
+                    <label class="main-label" for="message">Mensagem:</label><br>
+                    <textarea class="main-input -textarea" id="message" ></textarea>
 
                     
                 </form>
                 
             </div>
-            <input class="main-input -submit" type="submit" name="enviar" value="Enviar">
+            <div id="botao">
+                <button class="main-button -full" type="submit">Enviar</button>
+            </div>
+            
         </section>
 
 

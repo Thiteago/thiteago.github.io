@@ -24,3 +24,7 @@
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
 }
+
+.main-button.-full{
+    width: 658px;
+}
