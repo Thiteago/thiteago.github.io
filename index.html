@@ -6,6 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Thiago David</title>
 
+        <script src="/js/components/send-email.js"></script>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init("user_vZowS9F0ouCzEeDrBqcCi");
+            })();
+        </script>
+
+
+
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
         
@@ -192,7 +203,7 @@
 
             <div class="wrapper-form">
                 <img src="assets/img/document-icon.png" alt="imagem de um documento em pixel art" height="622">
-                <form action="" method="GET">
+                <form id="contact-form" action="" method="GET">
                     <label class="main-label" for="nome">Nome:</label><br>
                     <input class="main-input" type="text" name="nome" id="nome" required><br>
 
@@ -202,7 +213,7 @@
                     <label class="main-label" for="message">Mensagem:</label><br>
                     <textarea class="main-input -textarea" id="message" required></textarea><br>
 
-                    <button class="main-button -full" type="submit">Enviar</button>
+                    <button onclick='sendMail()' class="main-button -full" type="submit">Enviar</button>
                 </form>
                 
             </div>
@@ -225,8 +236,10 @@
             </a>
         </footer>
 
+
         <script src="/js/components/main-carousel.js"></script>
         <script src="/js/components/navbar-hide.js"></script>
+        <script src="/js/components/email-form.js"></script>
     </body>
 </html>
 
