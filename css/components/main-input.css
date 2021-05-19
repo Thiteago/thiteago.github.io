@@ -1,0 +1,16 @@
+.main-input{
+    width: 658px;
+    height: 35px;
+    background-color: #fff;
+    border: 5px solid #000
+}
+
+.main-input.-submit{
+    font-family: "Fira Code";
+    font-weight: 300px;
+    width: 96%;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0px #000;
+}

@@ -30,6 +30,9 @@
         <link rel="stylesheet" href="css/components/button-arrow.css">
         <link rel="stylesheet" href="css/components/node-card.css">
         <link rel="stylesheet" href="css/components/main-carousel.css">
+        <link rel="stylesheet" href="css/components/wrapper-form.css">
+        <link rel="stylesheet" href="css/components/main-input.css">
+        <link rel="stylesheet" href="css/components/main-footer.css">
 
     </head>
     <body>
@@ -181,8 +184,46 @@
 
         </section>
 
+        <section class="main-section -contatos">
+            <h1 class="main-title -second">Contatos</h1>
+
+            
+
+            <div class="wrapper-form">
+                <img src="assets/img/document-icon.png" alt="imagem de um documento em pixel art" height="622">
+                <form action="" method="GET">
+                    <label for="GET-nome">Nome:</label><br>
+                    <input class="main-input" type="text" name="nome"><br>
+                    <label for="GET-email">Email</label><br>
+                    <input class="main-input" type="email" name="email"><br>
+                    <label for="GET-Mensagem">Mensagem</label><br>
+                    <input class="main-input" type="text" name="mensagem" id="mensagem">
+
+                    
+                </form>
+                
+            </div>
+            <input class="main-input -submit" type="submit" name="enviar" value="Enviar">
+        </section>
+
+
+
+
+        <footer class="main-footer">
+            <a class="action" href="https://github.com/Thiteago" target="_blank">
+                <img src="assets/img/github-logo.png" width="45" height="45">
+            </a>
+            <a class="action" href="https://www.instagram.com/thiagoidavid/" target="_blank">
+                <img src="assets/img/instagram-new.png" width="40" height="43" >
+            </a>
+
+            <a class="action" href="https://www.linkedin.com/in/thiago-david/" target="_blank">
+                <img src="assets/img/linkedin-logo.png" width="40" height="43">
+            </a>
+        </footer>
+
         <script src="/js/components/main-carousel.js"></script>
         <script src="/js/components/navbar-hide.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     </body>
 </html>
+

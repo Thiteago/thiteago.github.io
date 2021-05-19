@@ -27,3 +27,9 @@
     background-image: url(../../assets/img/thumb-1920-860645.png);
 
 }
+
+.main-section.-contatos{
+    border-bottom: 10px solid #000;
+    background-attachment: fixed;
+    height: auto;
+}

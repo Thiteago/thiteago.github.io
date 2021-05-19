@@ -1,0 +1,11 @@
+.wrapper-form{
+    padding-top: 50px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#mensagem{
+    height: 346px;
+}
