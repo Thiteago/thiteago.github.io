@@ -1,12 +1,12 @@
 .main-banner{
     box-sizing: border-box;
     background-image: url(../../assets/img/sunset-pixel-art-landscape-scenery-digital-art-uhdpaper.com-4K-4.2066.jpg);
-    height: 800px;
+    height: 885px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     border-bottom: 10px solid #B50C6F;
-    padding-top: 115px;
+    padding-top: 200px;
     padding-left: 110px;
 }
 
