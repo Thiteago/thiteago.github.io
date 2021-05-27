@@ -12,7 +12,7 @@
     width: 280px;
 }
 
-@media only screen and (min-width: 1271px){
+@media only screen and (min-width: 1366px){
     margin-left: 50px;
     margin-right: 100px;
     background-color: #27244f;
