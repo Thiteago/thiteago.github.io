@@ -12,6 +12,14 @@
     width: 280px;
 }
 
+@media only screen and (min-width: 1271px){
+    margin-left: 50px;
+    margin-right: 100px;
+    background-color: #27244f;
+    box-shadow: 10px 10px 0px #ffffff;
+    width: 245px;   
+}
+
 .wrapper-projetos p{
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     color: #fff;
