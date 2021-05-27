@@ -10,4 +10,5 @@
 
 .main-input.-textarea{
     height: 320px;
+    resize: none;
 }
