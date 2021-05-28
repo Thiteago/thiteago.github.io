@@ -2,17 +2,39 @@
     text-align: center;
     padding-top: 150px;
     padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-.wrapper-projetos .legenda{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 
 .wrapper-projetos .legenda p{
-    padding-right: 75px;
-    padding-left: 65px; 
+    margin-left: -190px;
+    margin-right: 315px;
+}
+
+@media only screen and (min-width: 2559px) {
+    .wrapper-projetos img{
+        margin-left: 156px;
+        margin-right: 156px;
+        background-color: #27244f;
+        box-shadow: 10px 10px 0px #FFFFFF;
+        width: 280px;
+        margin-bottom: 10px;
+        height: 280px;
+    }
+}
+
+@media only screen and (min-width: 1270px){
+    .wrapper-projetos img{
+        margin-left: 156px;
+        margin-right: 156px;
+        background-color: #27244f;
+        box-shadow: 10px 10px 0px #FFFFFF;
+        width: 280px;
+        margin-bottom: 10px;
+        height: 280px;
+    }
 }
 
 .wrapper-projetos img{
@@ -21,19 +43,14 @@
     background-color: #27244f;
     box-shadow: 10px 10px 0px #FFFFFF;
     width: 280px;
+    margin-bottom: 10px;
+    height: 280px;
 }
 
-@media only screen and (min-width: 1366px){
-    .wrapper-projetos img{
-        margin-left: 50px;
-        margin-right: 100px;
-        background-color: #27244f;
-        box-shadow: 10px 10px 0px #ffffff;
-        width: 245px;   
-    }
-}
 
-.wrapper-projetos p{
+
+
+.wrapper-projetos figcaption{
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     color: #fff;
 }
