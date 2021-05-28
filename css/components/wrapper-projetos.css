@@ -4,6 +4,17 @@
     padding-bottom: 100px;
 }
 
+.wrapper-projetos .legenda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wrapper-projetos .legenda p{
+    padding-right: 75px;
+    padding-left: 65px; 
+}
+
 .wrapper-projetos img{
     margin-left: 156px;
     margin-right: 156px;
