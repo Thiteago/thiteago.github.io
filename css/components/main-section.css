@@ -12,11 +12,13 @@
 .main-section.-habilidades{
     border-bottom: 10px solid #ABB2C2;
     background-image: url(../../assets/img/backgroundSkill.png);
+    overflow: hidden;
 }
 
 .main-section.-projetos{
     background-color: #000;
     background-image: url(../../assets/img/wallpaperbetter.com_1920x1080.jpg);
+    overflow: hidden;
     
 }
 
