@@ -23,12 +23,18 @@
     margin-right: 25px;
 }
 
-@media (min-width: 320px) and (max-width: 600px){
+@media (min-width: 320px) and (max-width: 599px){
     .skill-tec h3{
         font-size: 0.80em;
     }
 
     .skill-tec .icon{
         margin-right: 10px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+    .skill-tec h3{
+        font-size: 1.43rem;
     }
 }
