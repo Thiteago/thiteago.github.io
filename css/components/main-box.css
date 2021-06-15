@@ -9,3 +9,10 @@
 .main-box .main-title{
     margin-bottom: 28px;
 }
+
+@media (min-width: 320px) and (max-width: 479px){
+    .main-box{
+        padding: 30px 15px;
+        width: 250px;
+    }
+}

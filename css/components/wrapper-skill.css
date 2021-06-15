@@ -19,3 +19,13 @@
 .wrapper-skill .progress-bar{
     width: 320px;
 }
+
+@media (min-width: 320px) and (max-width: 479px){
+    .wrapper-skill{
+        margin-top: 125px;
+    }
+
+    .wrapper-skill .progress-bar{
+        width: 270px;
+    }
+}

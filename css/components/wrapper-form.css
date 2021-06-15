@@ -8,3 +8,14 @@
 #botao{
     text-align: center;
 }
+
+@media (min-width: 320px) and (max-width: 479px){
+    .wrapper-form .img{
+        display: none;
+    }
+
+    .wrapper-form{
+        padding-top: 45px;
+        padding-right: 0px;
+    }
+}

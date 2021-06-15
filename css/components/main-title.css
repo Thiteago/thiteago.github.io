@@ -18,3 +18,9 @@
     text-align: center;
     text-shadow: 4px 4px 0px #bab2a7;
 }
+
+@media (min-width: 320px) and (max-width: 479px){
+    .main-title {
+        font-size: 2em;
+    }
+}

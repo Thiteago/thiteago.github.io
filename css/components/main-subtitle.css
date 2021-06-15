@@ -4,3 +4,9 @@
     text-shadow: 4px 4px 0px #000;
     color: #FFFF;
 }
+
+@media (min-width: 320px) and (max-width: 479px){
+    .main-subtitle{
+        font-size: 1em;
+    }
+}
