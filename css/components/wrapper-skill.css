@@ -22,21 +22,24 @@
 
 @media (min-width: 320px) and (max-width: 600px){
     .wrapper-skill{
-        margin: 79px 0 0 0;
-        flex-direction: column;
-        align-items: center;
+        display: block;
+        margin-top: 75px;
     }
-
+    
     .wrapper-skill .progress-bar{
         width: 230px;
     }
 
     .wrapper-skill .skill-tec{
         margin-bottom: 39px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .wrapper-skill .skill-tec:nth-child(odd){
-        margin-right: 0px;
+        margin-right: auto;
     }
 }
 

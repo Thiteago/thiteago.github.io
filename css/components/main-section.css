@@ -15,6 +15,10 @@
     overflow: hidden;
 }
 
+.main-section.-habilidades h1{
+    font-size: 1.5em;
+}
+
 .main-section.-projetos{
     background-color: #000;
     background-image: url(../../assets/img/wallpaperbetter.com_1920x1080.jpg);
