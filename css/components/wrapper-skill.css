@@ -20,7 +20,7 @@
     width: 320px;
 }
 
-@media (min-width: 320px) and (max-width: 479px){
+@media (min-width: 320px) and (max-width: 600px){
     .wrapper-skill{
         margin: 79px 0 0 0;
         flex-direction: column;
@@ -37,5 +37,18 @@
 
     .wrapper-skill .skill-tec:nth-child(odd){
         margin-right: 0px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 599px){
+    .wrapper-skill{
+        margin-top: 60px;
+        padding-left: 15px;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+    .wrapper-skill .skill-tec{
+        width: 430px;
+        margin-bottom: 40px;
     }
 }

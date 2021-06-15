@@ -33,3 +33,12 @@
     background-attachment: fixed;
     height: auto;
 }
+
+@media (min-width: 480px) and (max-width: 599px){
+    .main-section.-habilidades{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}

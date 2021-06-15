@@ -39,3 +39,9 @@
         width: 368px;
     }
 }
+
+@media (min-width: 480px) and (max-width: 599px){
+    .main-button.-full{
+        width: 430px;
+    }
+}

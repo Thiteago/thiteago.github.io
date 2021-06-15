@@ -23,7 +23,7 @@
     margin-right: 25px;
 }
 
-@media (min-width: 320px) and (max-width: 479px){
+@media (min-width: 320px) and (max-width: 600px){
     .skill-tec h3{
         font-size: 1em;
     }
