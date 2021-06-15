@@ -50,13 +50,27 @@
     <body>
         <header class="main-header" id="main-header">
             <img src="assets/img/logo white.png" alt="" width="144" height="63">
-            <nav>
+            <nav class="nav-bar">
                 <a class="main-action" href="#skill" lang="en">Habilidades</a>
                 <a class="main-action" href="#projetos">Projetos</a>
                 <a class="main-action" href="#sobre">Sobre</a>
                 <a class="main-action" href="#contatos">Contatos</a>
                 <a class="main-button -header" href="https://drive.google.com/uc?id=1dzHRYxctMBbTiBRj8aBrL4gsY2sB1dQ2&export=download" lang="en">Download CV</a>
             </nav>
+            <div class="menu-trigger" id="menu-trigger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        <nav class="menu-hidde" id="menu-hidde">
+            <ul>
+                <li><a id="link" class="main-action" href="#skill" lang="en">Habilidades</a></li>
+                <li><a id="link" class="main-action" href="#projetos">Projetos</a></li>
+                <li><a id="link" class="main-action" href="#sobre">Sobre</a></li>
+                <li><a id="link" class="main-action" href="#contatos">Contatos</a></li>
+                <li><a class="main-button -header" href="https://drive.google.com/uc?id=1dzHRYxctMBbTiBRj8aBrL4gsY2sB1dQ2&export=download" lang="en">Download CV</a></li>
+            </ul>
+        </nav>
         </header>
 
 
@@ -249,6 +263,7 @@
         <script src="/js/components/main-carousel.js"></script>
         <script src="/js/components/navbar-hide.js"></script>
         <script src="/js/components/email-form.js"></script>
+        <script src="js/components/menu.js"></script>
     </body>
 </html>
 
