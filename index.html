@@ -1,269 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Thiago David</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiago David</title>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/script.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ['Inter', 'Poppins', 'sans-serif'],
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#151b2e] max-w-screen-lg m-auto">
+    <section class="flex">
+      <aside class="flex flex-col max-h-screen h-screen pt-24 justify-between">
+        <div class="flex flex-col">
+          <h1 class="text-5xl font-bold font-sans text-zinc-200">Thiago David</h1>
+          <h2 class="text-2xl font-sans font-semibold text-zinc-200 mt-2 pl-2">Software Developer</h2>
+          <p class="mt-3 pl-2 font-sans text text-zinc-400">Coding with purpose, creating memorable experiences.</p>
 
-        <script src="/js/components/send-email.js"></script>
-
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-        <script type="text/javascript">
-            (function() {
-                emailjs.init("user_vZowS9F0ouCzEeDrBqcCi");
-            })();
-        </script>
-
-        
-
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
-        
-
-        <link href="css/hover.css" rel="stylesheet" media="all">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/components/habilidades.css">
-        <link rel="stylesheet" href="css/components/main-title.css">
-        <link rel="stylesheet" href="css/components/main-subtitle.css">
-        <link rel="stylesheet" href="css/components/main-box.css">
-        <link rel="stylesheet" href="css/components/main-button.css">
-        <link rel="stylesheet" href="css/components/main-action.css">
-        <link rel="stylesheet" href="css/components/main-header.css">
-        <link rel="stylesheet" href="css/components/main-banner.css">
-        <link rel="stylesheet" href="css/components/main-section.css">
-        <link rel="stylesheet" href="css/components/logos.css">
-        <link rel="stylesheet" href="css/components/skill-tec.css">
-        <link rel="stylesheet" href="css/components/progress-bar.css">
-        <link rel="stylesheet" href="css/components/wrapper-skill.css">
-        <link rel="stylesheet" href="css/components/wrapper-projetos.css">
-        <link rel="stylesheet" href="css/components/main-text.css">
-        <link rel="stylesheet" href="css/components/button-arrow.css">
-        <link rel="stylesheet" href="css/components/node-card.css">
-        <link rel="stylesheet" href="css/components/main-carousel.css">
-        <link rel="stylesheet" href="css/components/wrapper-form.css">
-        <link rel="stylesheet" href="css/components/main-input.css">
-        <link rel="stylesheet" href="css/components/main-footer.css">
-        <link rel="stylesheet" href="css/components/main-label.css">
-
-    </head>
-    <body>
-        <header class="main-header" id="main-header">
-            <img src="assets/img/logo white.png" alt="" width="144" height="63">
-            <nav class="nav-bar">
-                <a class="main-action" href="#skill" lang="en">Habilidades</a>
-                <a class="main-action" href="#projetos">Projetos</a>
-                <a class="main-action" href="#sobre">Sobre</a>
-                <a class="main-action" href="#contatos">Contatos</a>
-                <a class="main-button -header" href="https://drive.google.com/uc?id=1dzHRYxctMBbTiBRj8aBrL4gsY2sB1dQ2&export=download" lang="en">Download CV</a>
-            </nav>
-            <div class="menu-trigger" id="menu-trigger">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        <nav class="menu-hidde" id="menu-hidde">
-            <ul id="link">
-                <li><a class="main-action" href="#skill" lang="en">Habilidades</a></li>
-                <li><a class="main-action" href="#projetos">Projetos</a></li>
-                <li><a class="main-action" href="#sobre">Sobre</a></li>
-                <li><a class="main-action" href="#contatos">Contatos</a></li>
-                <li><a class="main-button -header" href="https://drive.google.com/uc?id=1dzHRYxctMBbTiBRj8aBrL4gsY2sB1dQ2&export=download" lang="en">Download CV</a></li>
+          <nav class="mt-16">
+            <ul>
+              <li class="py-2">
+                <a href="#about" class="text-zinc-300 font-bold uppercase text-sm flex items-center gap-4"><span style="width: 25px; height: 0.5px;" class="bg-gray-600 block"></span>About</a>
+              </li>
+              <li class="py-2">
+                <a href="#experience" class="text-zinc-300 font-bold uppercase text-sm flex items-center gap-4"><span style="width: 25px; height: 0.5px;" class="bg-gray-600 block"></span>Experiences</a>
+              </li>
+              <li class="py-2">
+                <a href="#projects" class="text-zinc-300 font-bold uppercase text-sm flex items-center gap-4"><span style="width: 25px; height: 0.5px;" class="bg-gray-600 block"></span>Projects</a>
+              </li>
             </ul>
-        </nav>
-        </header>
+          </nav>
+        </div>
 
 
-        <section class="main-banner">
-            <div class="wrapper">
-                <div class="main-box">
-                    <h1 class="main-title">Thiago David</h1>
-                    <h2 class="main-subtitle">FrontEnd Developer</h2>
-                </div>
-                <div class="navigation">
-                    <a class="main-button" href="https://drive.google.com/uc?id=1dzHRYxctMBbTiBRj8aBrL4gsY2sB1dQ2&export=download" lang="en">Download CV</a>
-                    <a class="main-button" href="#contatos" >Contatos</a>
-                </div>
-            </div>
-        </section>
-        
-        <section class="main-section -habilidades">
-            <h1 class="main-title -second" id="skill">Habilidades</h1>
+        <div class="w-full flex gap-8 pb-24">
+          <a href="" class="w-8">
+            <img class="max-w-full" src="assets/svg/github.svg" alt="">
+          </a>
+          <a href="" class="w-8">
+            <img class="max-w-full" src="assets/svg/instagram.svg" alt="">
+          </a>
+          <a href="" class="w-8">
+            <img class="max-w-full" src="assets/svg/linkedin.svg" alt="">
+          </a>
+        </div>
+      </aside>
+      <div>
 
-            <div class="wrapper-skill">
-                <article class="skill-tec">
-                    <img class="icon" src="assets/img/ico_html5.png" alt="Logo HTML5 em pixel art">
-                    <div class="right">
-                        <h3 class="title"> HTML </h3> 
-                        <progress class="progress-bar" max="100" value="80">
-                            80%
-                        </progress> 
-                    </div>
-                </article>
-
-                <article class="skill-tec">
-                    <img class="icon" src="assets/img/ico_css3.png" alt="Logo CSS em pixel art">
-                    <div class="right">
-                        <h3 class="title"> CSS </h3> 
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
-                        </progress> 
-                    </div>
-                </article>
-
-                <article class="skill-tec">
-                    <img class="icon" src="assets/img/ico_js.png" alt="Logo JAVASCRIPT em pixel art">
-                    <div class="right">
-                        <h3 class="title"> JavaScript </h3> 
-                        <progress class="progress-bar" max="100" value="15">
-                            15%
-                        </progress> 
-                    </div>
-                </article>
-
-                <article class="skill-tec">
-                    <img class="icon" src="assets/img/csharp.png" alt="Logo C# em pixel art">
-                    <div class="right">
-                        <h3 class="title"> C# </h3> 
-                        <progress class="progress-bar" max="100" value="60">
-                            60%
-                        </progress> 
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section class="main-section -projetos" id="projetos">
-            <h1 class="main-title -third">Projetos</h1>
-
-            <div class="wrapper-projetos">
-                <figure>
-                    <a href="https://github.com/Thiteago/ClauPradoWebCommerce" target="_blank"><img class="img-fluid" src="assets/img/clauPrado-pxArt.png" alt="Clau Prado WebCommerce"></a>
-                    <figcaption>Clau Prado WebCommerce</figcaption>
-                </figure>
-                
-                <figure>
-                    <a href="https://github.com/Thiteago/Sistema-Gerenciador-de-Assinante---DESKTOP" target="_blank"><img class="img-fluid" src="assets/img/client-icon.png" alt="icone gerenciador de assinantes"> </a>
-                    <figcaption>Gerenciador<br> de Assinantes</figcaption>
-                </figure>
-
-                <figure>
-                    <img class="img-fluid" src="assets/img/question+icon-1320167992514784953.png" alt="icone interrogação">
-                </figure>
-            </div>
-        </section>
-
-
-        <section class="main-section -sobre" id="sobre">
-            <h1 class="main-title -second">Sobre</h1>
-
-            <section class="main-carousel">
-
-                <button class="button-arrow -left"><span class="content">Esquerda</span></button>
-               
-                <div class="items">
-                    <div class="elements">
-                        <figure class="node-card">
-                            <figcaption class="title">2019</figcaption>
-                            <a href="https://www.soumaster.com.br/" target="_blank">
-                            <div class="logo">
-                                <img src="assets/img/master-logo.png" alt="logo master internt" height="36.68px" width="180px">
-                            </div>
-                            </a>
-                        </figure>
-                        
-
-                        <figure class="node-card">
-                            <figcaption class="title">?</figcaption>
-                            <div class="logo">
-                                <img src="assets/img/question+icon-1320167992514784953.png" alt="ponto de interrogação" height="110px" width="114">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">?</figcaption>
-                            <div class="logo">
-                                <img src="assets/img/question+icon-1320167992514784953.png" alt="ponto de interrogação" height="110px" width="114">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">?</figcaption>
-                            <div class="logo">
-                                <img src="assets/img/question+icon-1320167992514784953.png" alt="ponto de interrogação" height="110px" width="114">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">?</figcaption>
-                            <div class="logo">
-                                <img src="assets/img/question+icon-1320167992514784953.png" alt="ponto de interrogação" height="110px" width="114">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">?</figcaption>
-                            <div class="logo">
-                                <img src="assets/img/question+icon-1320167992514784953.png" alt="ponto de interrogação" height="110px" width="114">
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-
-                <button class="button-arrow -right"><span class="content">Direita</span></button>
-                </section>
-                <p class="main-text">
-                    Hoje, estudante de Análise e Desenvolvimento de sistemas pelo Instituto Federal de São Paulo - Campos do Jordão, Thiago trabalha atualmente
-                    como suporte técnico em um Provedor de internet, mas busca oportunidades no ramo de Desenvolvimento Front-End.
-                </p>
-
-        </section>
-
-        <section class="main-section -contatos" id="contatos">
-            <h1 class="main-title -second">Contatos</h1>
-
-            
-
-            <div class="wrapper-form">
-                <img class="img" src="assets/img/document-icon.png" alt="imagem de um documento em pixel art" height="622">
-                <form id="contact-form" action="" method="GET">
-                    <label class="main-label" for="nome">Nome:</label><br>
-                    <input class="main-input" type="text" name="nome" id="nome" required><br>
-
-                    <label class="main-label" for="email">Email:</label><br>
-                    <input class="main-input" type="email" name="email" id="email" required><br>
-
-                    <label class="main-label" for="message">Mensagem:</label><br>
-                    <textarea class="main-input -textarea" id="message" required></textarea><br>
-
-                    <button onclick='sendMail()' class="main-button -full" type="submit">Enviar</button>
-                </form>
-                
-            </div>
-            
-        </section>
-
-
-
-
-        <footer class="main-footer">
-            <a class="action" href="https://github.com/Thiteago" target="_blank">
-                <img src="assets/img/github-logo.png" width="45" height="45">
-            </a>
-            <a class="action" href="https://www.instagram.com/thiagoidavid/" target="_blank">
-                <img src="assets/img/instagram-new.png" width="40" height="43" >
-            </a>
-
-            <a class="action" href="https://www.linkedin.com/in/thiago-david/" target="_blank">
-                <img src="assets/img/linkedin-logo.png" width="40" height="43">
-            </a>
-        </footer>
-
-
-        <script src="/js/components/main-carousel.js"></script>
-        <script src="/js/components/navbar-hide.js"></script>
-        <script src="/js/components/email-form.js"></script>
-        <script src="js/components/menu.js"></script>
-    </body>
+      </div>
+    </section>
+  </body>
 </html>
 
